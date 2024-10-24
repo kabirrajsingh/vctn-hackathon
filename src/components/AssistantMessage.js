@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 // Assuming you have a mapping of agent names to icon URLs
 const agentImages = {
@@ -68,7 +69,7 @@ export default function AssistantMessage({ data, onPlayerClick }) {
                 {player.player_name} ({player.role})
               </h4>
               <p className="text-sm text-gray-300">
-                Top Agent: {player.top_agent} | ID: {player.player_id}
+                Agent Assigned: {player.top_agent} | ID: {player.player_id}
               </p>
               <div className="flex justify-between text-sm mt-1 text-gray-300">
                 <p><strong>Role:</strong> {player.role}</p>
@@ -108,6 +109,12 @@ export default function AssistantMessage({ data, onPlayerClick }) {
               </p>
             </div>
           )}
+          <div className="bg-gray-800 p-4 rounded-lg mt-4">
+          <h3 className="text-xl font-semibold mb-2">Team Strategy</h3>
+          <ReactMarkdown className="prose prose-invert">
+            {data.strategy_text}
+          </ReactMarkdown>
+        </div>
         </div>
       ))}
     </div>
