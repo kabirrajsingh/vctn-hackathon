@@ -18,7 +18,7 @@ export default function ChatWindow({ messages, onPlayerClick }) {
           className={`p-3 rounded-lg mb-4 ${
             message.sender === 'user'
               ? 'bg-blue-600 text-white self-end ml-8'
-              : 'bg-red-600 text-white self-start mr-8' 
+              : 'bg-slate-700 text-white self-start mr-8' 
           }`}
         >
           {message.sender === 'assistant' ? (

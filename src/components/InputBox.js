@@ -18,7 +18,7 @@ export default function InputBox({ onSend }) {
         onKeyDown={(e) => e.key === 'Enter' && handleSend()}
       />
       <button
-        className="bg-red-600 hover:bg-red-700 text-white p-3 rounded-r-md transition-all duration-300 transform hover:scale-105"
+        className="bg-red-600 hover:bg-red-700 text-white p-3 rounded-r-md transition-all duration-300 transform hover:scale-105 ml-3"
         onClick={handleSend}
       >
         Send
