@@ -21,7 +21,7 @@ function App() {
         </div>
         
         {/* Right Info Column */}
-        <div className="w-1/3 bg-stone-800 pt-4">
+        <div className="w-1/2 bg-stone-800 pt-4">
           <GameInfo />
         </div>
       </div>
