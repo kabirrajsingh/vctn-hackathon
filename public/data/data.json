@@ -1,0 +1,2055 @@
+{
+    "platformgameid": "val:61975947-129c-4e9a-be44-bb6e4ea17022",
+    "snapshot": {
+        "observers": [
+            {
+                "displayname": "centralobs06",
+                "observerid": {
+                    "value": 11
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centralobs04",
+                "observerid": {
+                    "value": 12
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centralobs02",
+                "observerid": {
+                    "value": 13
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centralobs01",
+                "observerid": {
+                    "value": 14
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centralobs03",
+                "observerid": {
+                    "value": 15
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centralobs15",
+                "observerid": {
+                    "value": 16
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centraltest16",
+                "observerid": {
+                    "value": 17
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centraltest15",
+                "observerid": {
+                    "value": 18
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centralobs10",
+                "observerid": {
+                    "value": 19
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "centralobs09",
+                "observerid": {
+                    "value": 20
+                },
+                "followedplayerid": {
+                    "value": 5
+                },
+                "tagline": "eprod"
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            },
+            {
+                "displayname": "",
+                "observerid": {
+                    "value": -1
+                },
+                "followedplayerid": {
+                    "value": -1
+                },
+                "tagline": ""
+            }
+        ],
+        "players": [
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "be6c975e-42d4-17cb-5591-dc8e11b4de05",
+                                "displayname": "glitchpop classic level 4\n(variant 2 red)"
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -1264.99963,
+                        "x": 9375,
+                        "z": 750.304626
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": -0.499976575,
+                        "x": -0.866038918,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 1
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "be6c975e-42d4-17cb-5591-dc8e11b4de05",
+                                "displayname": "glitchpop classic level 4\n(variant 2 red)"
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "ddc025b2-475f-889a-2800-80b4215582bc",
+                                "displayname": "glitchpop dagger"
+                            },
+                            "levelfallback": {
+                                "guid": "48ce4a70-4207-623b-4739-bfb937812432",
+                                "displayname": "glitchpop dagger"
+                            },
+                            "chromafallback": {
+                                "guid": "9d137aeb-41a1-a84f-3523-5194e24cc580",
+                                "displayname": "glitchpop dagger"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "f94c3b30-42be-e959-889c-5aa313dba261"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "f94c3b30-42be-e959-889c-5aa313dba261"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "f94c3b30-42be-e959-889c-5aa313dba261"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "f94c3b30-42be-e959-889c-5aa313dba261"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 8,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "4d83874b-4385-a927-222c-3097cb330824",
+                                "displayname": "glitchpop classic level 4\n(variant 3 gold)"
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -289.998322,
+                        "x": 9375,
+                        "z": 750.30249
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0.25886023,
+                        "x": -0.965914786,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 2
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "4d83874b-4385-a927-222c-3097cb330824",
+                                "displayname": "glitchpop classic level 4\n(variant 3 gold)"
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "a590c03a-43b1-a408-4c6b-0bb9fdda1570",
+                                "displayname": "ion karambit"
+                            },
+                            "levelfallback": {
+                                "guid": "4b418533-4b77-c755-e471-79902c74928b",
+                                "displayname": "ion karambit level 2"
+                            },
+                            "chromafallback": {
+                                "guid": "c8642bb8-454d-5768-03c6-4fbc46c678c3",
+                                "displayname": "ion karambit level 2\n(variant 2 yellow)"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "569fdd95-4d10-43ab-ca70-79becc718b46"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "569fdd95-4d10-43ab-ca70-79becc718b46"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "569fdd95-4d10-43ab-ca70-79becc718b46"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "569fdd95-4d10-43ab-ca70-79becc718b46"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 8,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "d653f4a7-4e92-2559-0a97-2c9d46d009b3",
+                                "displayname": "prime classic"
+                            },
+                            "levelfallback": {
+                                "guid": "e8a35ddb-4ce7-3867-154c-94803ed12a24",
+                                "displayname": "prime classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "d9dce0ec-464c-df67-63a3-1f9a05d322ad",
+                                "displayname": "prime classic"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "80bbcdff-4b2c-2370-0806-498c0f4e1d06",
+                                "displayname": ""
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -539.999634,
+                        "x": 9375,
+                        "z": 750.302368
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0.25886023,
+                        "x": -0.965914786,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 3
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "d653f4a7-4e92-2559-0a97-2c9d46d009b3",
+                                "displayname": "prime classic"
+                            },
+                            "levelfallback": {
+                                "guid": "e8a35ddb-4ce7-3867-154c-94803ed12a24",
+                                "displayname": "prime classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "d9dce0ec-464c-df67-63a3-1f9a05d322ad",
+                                "displayname": "prime classic"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "80bbcdff-4b2c-2370-0806-498c0f4e1d06",
+                                "displayname": ""
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "71020826-483d-34f8-8da7-928f87942c10",
+                                "displayname": "radiant crisis 001 baseball bat"
+                            },
+                            "levelfallback": {
+                                "guid": "11a7dfd4-4fc9-a806-6b20-fda57c1aa331",
+                                "displayname": "radiant crisis 001 baseball bat level 2"
+                            },
+                            "chromafallback": {
+                                "guid": "2870c012-4ad1-43d2-348d-2a98cc640833",
+                                "displayname": "radiant crisis 001 baseball bat"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "5f8d3a7f-467b-97f3-062c-13acf203c006"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "5f8d3a7f-467b-97f3-062c-13acf203c006"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "5f8d3a7f-467b-97f3-062c-13acf203c006"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "5f8d3a7f-467b-97f3-062c-13acf203c006"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 7,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "111680fd-4562-f658-af1c-ed8f9cfe9f9c",
+                                "displayname": "rgx 11z pro classic"
+                            },
+                            "levelfallback": {
+                                "guid": "4c741d16-4ab3-873f-99e0-7ab0c0643f08",
+                                "displayname": "rgx 11z pro classic level 5"
+                            },
+                            "chromafallback": {
+                                "guid": "bd0feedc-4571-773b-0f94-6dad613537d1",
+                                "displayname": "rgx 11z pro classic level 5\n(variant 3 yellow)"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "2179e882-430e-be93-b909-bba9568e66af",
+                                "displayname": ""
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -14.998291,
+                        "x": 9375,
+                        "z": 750.302063
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0,
+                        "x": -1,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 4
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "111680fd-4562-f658-af1c-ed8f9cfe9f9c",
+                                "displayname": "rgx 11z pro classic"
+                            },
+                            "levelfallback": {
+                                "guid": "4c741d16-4ab3-873f-99e0-7ab0c0643f08",
+                                "displayname": "rgx 11z pro classic level 5"
+                            },
+                            "chromafallback": {
+                                "guid": "bd0feedc-4571-773b-0f94-6dad613537d1",
+                                "displayname": "rgx 11z pro classic level 5\n(variant 3 yellow)"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "2179e882-430e-be93-b909-bba9568e66af",
+                                "displayname": ""
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "52a1647c-42d9-b40e-16cf-a7821566ad81",
+                                "displayname": "snowfall wand"
+                            },
+                            "levelfallback": {
+                                "guid": "155ba654-4afa-1029-9e71-e0b6962d5410",
+                                "displayname": "snowfall wand"
+                            },
+                            "chromafallback": {
+                                "guid": "29dd7a19-4654-af07-59bb-14b11db66e1a",
+                                "displayname": "standard"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 7,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "be6c975e-42d4-17cb-5591-dc8e11b4de05",
+                                "displayname": "glitchpop classic level 4\n(variant 2 red)"
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -889.999634,
+                        "x": 9375,
+                        "z": 750.302185
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": -0.499976575,
+                        "x": -0.866038918,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 5
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "be6c975e-42d4-17cb-5591-dc8e11b4de05",
+                                "displayname": "glitchpop classic level 4\n(variant 2 red)"
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "b73d7b16-4652-bc5b-5c4c-068aabb19d0a",
+                                "displayname": "reaver karambit"
+                            },
+                            "levelfallback": {
+                                "guid": "84d08ce6-468c-b95b-9bbb-408dcdcee76f",
+                                "displayname": "reaver karambit level 2"
+                            },
+                            "chromafallback": {
+                                "guid": "517f5413-4859-ab98-fec8-4ebd39a15121",
+                                "displayname": "reaver karambit level 2\r\n(variant 2 black)"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 5,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "backpack"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "backpack"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 8,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "4d83874b-4385-a927-222c-3097cb330824",
+                                "displayname": "glitchpop classic level 4\n(variant 3 gold)"
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -325,
+                        "x": 3749.9978,
+                        "z": 403.596252
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0,
+                        "x": 1,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 6
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "4d83874b-4385-a927-222c-3097cb330824",
+                                "displayname": "glitchpop classic level 4\n(variant 3 gold)"
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "b73d7b16-4652-bc5b-5c4c-068aabb19d0a",
+                                "displayname": "reaver karambit"
+                            },
+                            "levelfallback": {
+                                "guid": "84d08ce6-468c-b95b-9bbb-408dcdcee76f",
+                                "displayname": "reaver karambit level 2"
+                            },
+                            "chromafallback": {
+                                "guid": "517f5413-4859-ab98-fec8-4ebd39a15121",
+                                "displayname": "reaver karambit level 2\r\n(variant 2 black)"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 40,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "backpack"
+                                },
+                                "guid": "bb2a4828-46eb-8cd1-e765-15848195d751"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "bb2a4828-46eb-8cd1-e765-15848195d751"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "bb2a4828-46eb-8cd1-e765-15848195d751"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "bb2a4828-46eb-8cd1-e765-15848195d751"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "bb2a4828-46eb-8cd1-e765-15848195d751"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 7,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "bb1e1703-4ea1-9be5-c145-4480a6b9f0d7",
+                                "displayname": "glitchpop classic"
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -805,
+                        "x": 3817.9978,
+                        "z": 403.596283
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0,
+                        "x": 1,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 7
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "8b2598eb-4db9-6338-4a25-c780402c780e",
+                                "displayname": "glitchpop classic"
+                            },
+                            "levelfallback": {
+                                "guid": "748397a3-42c7-7482-3451-57a28b3af4c3",
+                                "displayname": "glitchpop classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "bb1e1703-4ea1-9be5-c145-4480a6b9f0d7",
+                                "displayname": "glitchpop classic"
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "c5482640-4652-6948-29c6-769e8198db27",
+                                "displayname": "xenohunter knife"
+                            },
+                            "levelfallback": {
+                                "guid": "ba8b620a-4a51-8ed6-d1a7-cb9a4b3d99bd",
+                                "displayname": "xenohunter knife level 2"
+                            },
+                            "chromafallback": {
+                                "guid": "37714c64-482b-d68d-f704-139156a2577c",
+                                "displayname": "xenohunter knife"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "dade69b4-4f5a-8528-247b-219e5a1facd6"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "dade69b4-4f5a-8528-247b-219e5a1facd6"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "dade69b4-4f5a-8528-247b-219e5a1facd6"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "dade69b4-4f5a-8528-247b-219e5a1facd6"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 7,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "c612138e-4007-6d0c-64ad-3690c65ee4a7",
+                                "displayname": "forsaken classic"
+                            },
+                            "levelfallback": {
+                                "guid": "0256f32e-4c05-d95f-5a98-1caa0a3f7d6f",
+                                "displayname": "forsaken classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "cd380fae-4628-5a94-b9cb-10bb10bd4804",
+                                "displayname": "forsaken classic level 4\n(variant 1 gold)"
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -325,
+                        "x": 3917.9978,
+                        "z": 403.596252
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0,
+                        "x": 1,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 8
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "displayname": "classic",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "c612138e-4007-6d0c-64ad-3690c65ee4a7",
+                                "displayname": "forsaken classic"
+                            },
+                            "levelfallback": {
+                                "guid": "0256f32e-4c05-d95f-5a98-1caa0a3f7d6f",
+                                "displayname": "forsaken classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "cd380fae-4628-5a94-b9cb-10bb10bd4804",
+                                "displayname": "forsaken classic level 4\n(variant 1 gold)"
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "9c350ebe-458b-e6ed-ab77-2fb00cf249c1",
+                                "displayname": "ruin dagger"
+                            },
+                            "levelfallback": {
+                                "guid": "726b77c9-41c3-80c6-f33e-068b9f74ef56",
+                                "displayname": "ruin dagger"
+                            },
+                            "chromafallback": {
+                                "guid": "7c14d797-4a40-2fbc-c314-249f6029396f",
+                                "displayname": "ruin dagger"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 5,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "backpack"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "backpack"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 8,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "46f32f75-4fc8-7121-8a77-db8db43afc67",
+                                "displayname": "spectrum classic"
+                            },
+                            "levelfallback": {
+                                "guid": "40489a32-47c8-710c-5ed9-738a61a3db38",
+                                "displayname": "spectrum classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "1746329a-450b-db34-eb45-a19c4af64aa8",
+                                "displayname": "spectrum classic level 4\n(variant 3 purple/pink)"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "f344bead-bb25-4226-a990-b5d9694d475d",
+                                "displayname": ""
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -325,
+                        "x": 3581.9978,
+                        "z": 403.596191
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0,
+                        "x": 1,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 9
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "46f32f75-4fc8-7121-8a77-db8db43afc67",
+                                "displayname": "spectrum classic"
+                            },
+                            "levelfallback": {
+                                "guid": "40489a32-47c8-710c-5ed9-738a61a3db38",
+                                "displayname": "spectrum classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "1746329a-450b-db34-eb45-a19c4af64aa8",
+                                "displayname": "spectrum classic level 4\n(variant 3 purple/pink)"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "f344bead-bb25-4226-a990-b5d9694d475d",
+                                "displayname": ""
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "9c350ebe-458b-e6ed-ab77-2fb00cf249c1",
+                                "displayname": "ruin dagger"
+                            },
+                            "levelfallback": {
+                                "guid": "726b77c9-41c3-80c6-f33e-068b9f74ef56",
+                                "displayname": "ruin dagger"
+                            },
+                            "chromafallback": {
+                                "guid": "7c14d797-4a40-2fbc-c314-249f6029396f",
+                                "displayname": "ruin dagger"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 2,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "passive"
+                                },
+                                "guid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 7,
+                        "temporarycharges": 0
+                    }
+                ]
+            },
+            {
+                "deaths": 0,
+                "kills": 0,
+                "alivestate": {
+                    "equippeditem": {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "d653f4a7-4e92-2559-0a97-2c9d46d009b3",
+                                "displayname": "prime classic"
+                            },
+                            "levelfallback": {
+                                "guid": "e8a35ddb-4ce7-3867-154c-94803ed12a24",
+                                "displayname": "prime classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "d9dce0ec-464c-df67-63a3-1f9a05d322ad",
+                                "displayname": "prime classic"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "e370d9f9-4deb-9ae4-a594-24947cb21b2d",
+                                "displayname": "lunar"
+                            }
+                        }
+                    },
+                    "velocity": {
+                        "y": 0,
+                        "x": 0,
+                        "z": 0
+                    },
+                    "health": 100,
+                    "position": {
+                        "y": -805,
+                        "x": 3649.9978,
+                        "z": 403.596222
+                    },
+                    "armor": 0,
+                    "viewvector": {
+                        "y": 0,
+                        "x": 1,
+                        "z": 0
+                    }
+                },
+                "playerid": {
+                    "value": 10
+                },
+                "money": 800,
+                "inventory": [
+                    {
+                        "ammunition": {
+                            "inmagazine": 12,
+                            "inreserve": 36
+                        },
+                        "guid": "29a0cfab-485b-f5d5-779a-b59f85e204a8",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "d653f4a7-4e92-2559-0a97-2c9d46d009b3",
+                                "displayname": "prime classic"
+                            },
+                            "levelfallback": {
+                                "guid": "e8a35ddb-4ce7-3867-154c-94803ed12a24",
+                                "displayname": "prime classic level 4"
+                            },
+                            "chromafallback": {
+                                "guid": "d9dce0ec-464c-df67-63a3-1f9a05d322ad",
+                                "displayname": "prime classic"
+                            }
+                        },
+                        "slot": {
+                            "slot": "secondary"
+                        },
+                        "displayname": "classic",
+                        "charm": {
+                            "charmfallback": {
+                                "guid": "e370d9f9-4deb-9ae4-a594-24947cb21b2d",
+                                "displayname": "lunar"
+                            }
+                        }
+                    },
+                    {
+                        "slot": {
+                            "slot": "melee"
+                        },
+                        "displayname": "melee",
+                        "guid": "2f59173c-4bed-b6c3-2191-dea9b58be9c7",
+                        "skin": {
+                            "skinfallback": {
+                                "guid": "ed792f00-43a7-cc88-b64b-b78c9de399a1",
+                                "displayname": "forsaken ritual blade"
+                            },
+                            "levelfallback": {
+                                "guid": "5fecfd43-4bec-4e6a-842c-84860853df82",
+                                "displayname": "forsaken ritual blade"
+                            },
+                            "chromafallback": {
+                                "guid": "30e034a5-41dc-f639-e513-ce95af4a0474",
+                                "displayname": "forsaken ritual blade level 2"
+                            }
+                        }
+                    }
+                ],
+                "scores": {
+                    "combatscore": {
+                        "totalscore": 0,
+                        "roundscore": 0
+                    }
+                },
+                "assists": 0,
+                "abilities": [
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_1"
+                                },
+                                "guid": "601dbbe7-43ce-be57-2a40-4abd24953621"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 1,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ability_2"
+                                },
+                                "guid": "601dbbe7-43ce-be57-2a40-4abd24953621"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "grenade_ability"
+                                },
+                                "guid": "601dbbe7-43ce-be57-2a40-4abd24953621"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 0,
+                        "temporarycharges": 0
+                    },
+                    {
+                        "basecharges": 0,
+                        "ability": {
+                            "fallback": {
+                                "displayname": "",
+                                "inventoryslot": {
+                                    "slot": "ultimate"
+                                },
+                                "guid": "601dbbe7-43ce-be57-2a40-4abd24953621"
+                            },
+                            "type": "unknown"
+                        },
+                        "maxcharges": 7,
+                        "temporarycharges": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "serverinfo": {
+            "processid": "",
+            "rfc190scope": "aresriot.aws-usw2-prod.tournament-gp-offline-8.ares.gameserver"
+        },
+        "playback": 0,
+        "sequencenumber": 47,
+        "stage": 1,
+        "gameversion": "05.09.00.789344",
+        "gameid": {
+            "value": "61975947-129c-4e9a-be44-bb6e4ea17022"
+        },
+        "eventtime": {
+            "includedpauses": "11.011s",
+            "omittingpauses": "11.011s"
+        },
+        "walltime": "2022-11-19t14:58:35.459z"
+    }
+}

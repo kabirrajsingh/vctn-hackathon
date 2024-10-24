@@ -1,0 +1,135 @@
+{
+    "jett": [
+      "Cloudburst", "Throws a smoke projectile that expands upon impact, obscuring vision.",
+      "Updraft", "Propels Jett upwards in the air, allowing her to reach high places or evade attacks.",
+      "Tailwind", "Dashes a short distance in the direction Jett is moving.",
+      "Blade Storm", "Equips a set of throwing knives that deal significant damage and reset on kills."
+    ],
+    "phoenix": [
+      "Hot Hands", "Throws a fireball that explodes after a delay or upon impact, healing Phoenix and damaging enemies.",
+      "Curveball", "Throws a flash that curves around corners, temporarily blinding enemies.",
+      "Blaze", "Creates a wall of fire that blocks vision and heals Phoenix as he passes through.",
+      "Run It Back", "Places a marker at Phoenix’s location; if he dies during its duration, he is resurrected at that spot with full health."
+    ],
+    "raze": [
+      "Boom Bot", "Deploys a bot that travels in a straight line, bouncing off walls and chasing enemies, then exploding.",
+      "Blast Pack", "Throws an explosive satchel that sticks to surfaces and can be detonated manually to deal damage or boost Raze’s movement.",
+      "Paint Shells", "Throws a cluster grenade that splits into smaller explosives upon detonation, dealing area damage.",
+      "Showstopper", "Equips a powerful rocket launcher that deals massive damage in a large area."
+    ],
+    "reyna": [
+      "Leer", "Throws an orb that nearsights all enemies who look at it, regardless of obstacles.",
+      "Devour", "Consumes a soul orb dropped by enemies Reyna kills, healing her over time.",
+      "Dismiss", "Consumes a soul orb to become intangible and gain a brief movement speed boost.",
+      "Empress", "Enhances Reyna’s abilities, increasing her fire rate, and allows for faster casting of Devour and Dismiss."
+    ],
+    "yoru": [
+      "Fakeout", "Deploys an echo that mimics Yoru's footsteps, deceiving enemies.",
+      "Blindside", "Throws a flash that bounces off surfaces, temporarily blinding enemies in its path.",
+      "Gatecrash", "Deploys a teleport beacon that Yoru can reactivate to teleport to its location.",
+      "Dimensional Drift", "Enters a parallel dimension, becoming invisible and invulnerable for a short duration."
+    ],
+    "neon": [
+      "Fast Lane", "Creates a straight, two-way wall that blocks vision and damages enemies passing through it.",
+      "Relay Bolt", "Throws an electric bolt that bounces and electrifies surfaces, concussing enemies.",
+      "High Gear", "Increases Neon’s sprint speed and allows for a slide, providing quick mobility.",
+      "Overdrive", "Activates a powerful beam weapon that deals damage in a precise line with increased movement speed."
+    ],
+    "sova": [
+      "Shock Bolt", "Fires an arrow that explodes upon impact, dealing area damage.",
+      "Recon Bolt", "Fires an arrow that reveals the location of nearby enemies when it pings.",
+      "Owl Drone", "Deploys a drone that can fly around and mark enemies with darts.",
+      "Hunter's Fury", "Fires up to three powerful energy blasts that damage and reveal enemies through walls."
+    ],
+    "breach": [
+      "Aftershock", "Fires a charge through walls, dealing damage to anyone caught in its explosion.",
+      "Flashpoint", "Fires a blinding charge through walls, temporarily blinding all in its line of sight.",
+      "Fault Line", "Deploys a seismic charge that causes a large quake, concussing all enemies in its path.",
+      "Rolling Thunder", "Unleashes a powerful wave that concusses and knocks up enemies caught in its range."
+    ],
+    "skye": [
+      "Regrowth", "Heals allies within a radius using a healing trinket; cannot heal herself.",
+      "Trailblazer", "Deploys a tiger trinket that can be controlled to concuss and damage enemies.",
+      "Guiding Light", "Sends out a controllable hawk that can be reactivated to blind enemies.",
+      "Seekers", "Deploys three seekers that track down the three nearest enemies, revealing their locations."
+    ],
+    "kay/o": [
+      "FRAG/ment", "Throws a grenade that explodes multiple times, dealing heavy damage in its area.",
+      "FLASH/drive", "Throws a flash that explodes after a delay, blinding enemies in its line of sight.",
+      "ZERO/point", "Throws a suppression blade that disables enemy abilities in a radius.",
+      "NULL/cmd", "Enters an empowered state that suppresses enemies and allows for faster fire rate."
+    ],
+    "fade": [
+      "Haunt", "Throws an orb that reveals the location of enemies caught in its radius when it lands.",
+      "Seize", "Throws an orb that traps enemies within a radius, preventing them from escaping.",
+      "Prowler", "Deploys a creature that tracks down enemies, nearsighting them upon impact.",
+      "Nightfall", "Unleashes a wave that deafens, decays, and reveals enemies caught in its path."
+    ],
+    "gekko": [
+      "Mosh Pit", "Throws an explosive that covers a large area and deals heavy damage.",
+      "Wingman", "Deploys a creature that can either concuss enemies or plant/defuse the spike.",
+      "Dizzy", "Sends out a creature that blinds all enemies in its line of sight.",
+      "Thrash", "Deploys a controllable creature that can jump onto enemies, concussing them."
+    ],
+    "brimstone": [
+      "Incendiary", "Launches an incendiary grenade that creates a lingering fire zone, damaging players within it.",
+      "Stim Beacon", "Deploys a beacon that grants a fire rate boost to all players within its radius.",
+      "Sky Smoke", "Deploys a cloud of smoke to obscure vision, ideal for controlling sightlines.",
+      "Orbital Strike", "Calls in a high-damage laser strike at a targeted location."
+    ],
+    "omen": [
+      "Shrouded Step", "Teleports a short distance to a marked location.",
+      "Paranoia", "Sends out a shadow that nearsights and deafens all players in its path.",
+      "Dark Cover", "Deploys an orb that creates a large, long-lasting smoke cloud.",
+      "From the Shadows", "Teleports anywhere on the map, becoming a shadow form until arrival."
+    ],
+    "viper": [
+      "Snake Bite", "Launches a canister that creates a pool of acid, dealing damage over time.",
+      "Poison Cloud", "Throws a gas emitter that creates a toxic smoke cloud, which can be toggled on and off.",
+      "Toxic Screen", "Deploys a line of gas emitters that create a wall of poison gas when activated.",
+      "Viper's Pit", "Creates a large toxic cloud that obscures vision and decays enemies' health inside it."
+    ],
+    "astra": [
+      "Gravity Well", "Creates a star that pulls in players and makes them vulnerable.",
+      "Nova Pulse", "Creates a star that concusses players in its radius.",
+      "Nebula", "Creates a smoke that obscures vision, offering cover.",
+      "Astral Form / Cosmic Divide", "Allows Astra to place stars and create a wall that blocks bullets and dampens sound."
+    ],
+    "harbor": [
+      "Cascade", "Sends a wave of water forward, slowing enemies it passes through.",
+      "Cove", "Deploys a protective bubble that blocks bullets and obscures vision.",
+      "High Tide", "Sends a wave of water that can bend around terrain and obscure vision.",
+      "Reckoning", "Summons a geyser field that concusses enemies caught within it."
+    ],
+    "sage": [
+      "Barrier Orb", "Creates a solid wall that can be rotated before placement.",
+      "Slow Orb", "Casts an orb that creates a slowing field, reducing movement speed.",
+      "Healing Orb", "Heals an ally or herself over time.",
+      "Resurrection", "Revives a dead teammate with full health."
+    ],
+    "cypher": [
+      "Trapwire", "Deploys a tripwire that reveals and tethers enemies who cross it.",
+      "Cyber Cage", "Creates a zone that slows enemies who pass through it.",
+      "Spycam", "Deploys a camera that can be remotely controlled to monitor and tag enemies.",
+      "Neural Theft", "Reveals the location of all enemies by extracting information from a dead enemy."
+    ],
+    "killjoy": [
+      "Nanoswarm", "Deploys a grenade that can be remotely activated to create a damaging zone.",
+      "Alarmbot", "Deploys a bot that chases down enemies and applies a debuff, increasing damage taken.",
+      "Turret", "Deploys a turret that fires at enemies within its range.",
+      "Lockdown", "Deploys a device that detains all enemies within a large radius after a delay."
+    ],
+    "chamber": [
+      "Trademark", "Deploys a trap that scans for enemies and slows them when triggered.",
+      "Headhunter", "Equips a heavy pistol with high accuracy and damage.",
+      "Rendezvous", "Sets teleport anchors that Chamber can reactivate to quickly move between.",
+      "Tour de Force", "Summons a powerful sniper rifle that kills enemies with a single shot."
+    ],
+    "deadlock": [
+      "GravNet", "Throws a grenade that forces enemies caught in its radius to crouch and move slowly.",
+      "Sonic Sensor", "Deploys a sensor that detects and concusses enemies who make noise.",
+      "Barrier Mesh", "Creates a mesh barrier that blocks enemy movement.",
+      "Annihilation", "Deploys a nanowire that captures and drags an enemy to a designated spot, eliminating them if it completes the process."
+    ]
+  }
+  

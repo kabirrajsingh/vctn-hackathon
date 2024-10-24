@@ -1,0 +1,141 @@
+{
+
+    "team_name": "VCT International Team",
+    "team_composition": [
+      {
+        "player_name": "Player1",
+        "role": "Duelist",
+        "region": "North America",
+        "agent": "Jett",
+        "group": "VCT International",
+        "metadata":{},
+        "performance_stats": {
+          "kills_per_game": 25,
+          "deaths_per_game": 14,
+          "assists_per_game": 6,
+          "average_combat_score": 290,
+          "headshot_percentage": 34.5,
+          "clutches_per_game": 1.2,
+          "average_damage_per_round": 170,
+          "entry_success_rate": 60,
+          "round_win_rate": 52.3,
+          "econ_rating": 80.5,
+          "first_kill_win_rate": 58,
+          "average_rounds_played": 20
+        },
+        "reasoning": "Player1 is an aggressive duelist, consistently winning entry duels and creating space for the team. Their high ACS and kill stats make them a strong offensive presence."
+      },
+      {
+        "player_name": "Player2",
+        "role": "Initiator",
+        "agent": "Skye",
+        "region": "Europe",
+        "metadata":{},
+        "group": "VCT Challengers",
+        "performance_stats": {
+          "kills_per_game": 18,
+          "deaths_per_game": 12,
+          "assists_per_game": 12,
+          "average_combat_score": 220,
+          "headshot_percentage": 28.2,
+          "clutches_per_game": 0.8,
+          "average_damage_per_round": 150,
+          "entry_success_rate": 45,
+          "round_win_rate": 50.1,
+          "econ_rating": 76.8,
+          "first_kill_win_rate": 40,
+          "average_rounds_played": 21
+        },
+        "reasoning": "Player2 plays a supportive role, providing crucial assists and setting up teammates for success. Their steady performance in both kills and assists contributes to overall team stability."
+      },
+      {
+        "player_name": "Player3",
+        "role": "Sentinel",
+        "agent": "Cypher",
+        "region": "South America",
+        "metadata":{},
+        "group": "VCT Game Changers",
+        "performance_stats": {
+          "kills_per_game": 16,
+          "deaths_per_game": 10,
+          "assists_per_game": 5,
+          "average_combat_score": 210,
+          "headshot_percentage": 31.1,
+          "clutches_per_game": 1.5,
+          "average_damage_per_round": 140,
+          "entry_success_rate": 35,
+          "round_win_rate": 55.2,
+          "econ_rating": 73.5,
+          "first_kill_win_rate": 30,
+          "average_rounds_played": 19
+        },
+        "reasoning": "Player3 excels in providing defensive support, often winning clutch rounds that turn the tide in the team's favor. Their consistency in holding down sites and securing kills makes them a key defender."
+      },
+      {
+        "player_name": "Player4",
+        "role": "Controller",
+        "region": "Asia",
+        "agent": "Viper",
+        "metadata":{},
+        "group": "VCT International",
+        "performance_stats": {
+          "kills_per_game": 20,
+          "deaths_per_game": 11,
+          "assists_per_game": 7,
+          "average_combat_score": 240,
+          "headshot_percentage": 29.0,
+          "clutches_per_game": 1.0,
+          "average_damage_per_round": 160,
+          "entry_success_rate": 50,
+          "round_win_rate": 53.4,
+          "econ_rating": 77.2,
+          "first_kill_win_rate": 42,
+          "average_rounds_played": 20
+        },
+        "reasoning": "Player4 provides strong map control, using smokes and utility to influence engagements. Their ability to control space and support teammates with well-timed plays makes them an asset in both offense and defense."
+      },
+      {
+        "player_name": "Player5",
+        "role": "Initiator",
+        "region": "Europe",
+        "agent": "Breach",
+        "metadata":{},
+        "group": "VCT International",
+        "performance_stats": {
+          "kills_per_game": 15,
+          "deaths_per_game": 9,
+          "assists_per_game": 10,
+          "average_combat_score": 200,
+          "headshot_percentage": 27.5,
+          "clutches_per_game": 0.9,
+          "average_damage_per_round": 155,
+          "entry_success_rate": 40,
+          "round_win_rate": 51.8,
+          "econ_rating": 75.1,
+          "first_kill_win_rate": 38,
+          "average_rounds_played": 20
+        },
+        "reasoning": "Player5’s steady aim and ability to set up teammates with assists and strategic plays make them valuable in clutch situations. Their presence ensures that the team maintains control and gathers information throughout rounds."
+      }
+    ],
+    "igl": {
+      "player_name": "Player5",
+      "experience_years": 3,
+      "strategic_focus": "Aggressive site control and rapid rotations",
+      "decision_making": "Player5 has a keen sense of reading enemy positioning and making quick tactical decisions during high-pressure situations.",
+      "communication_skills": "Strong communication with clear and concise calls, making them effective in coordinating team plays and adjusting strategies mid-round."
+    },
+    "strategy_overview": {
+      "offensive_strategy": "The team relies on aggressive site takes, using Duelist and Initiators to gain early control while Controllers maintain map control with strategic utility usage.",
+      "defensive_strategy": "On defense, Sentinels hold down key positions while the Controller and Initiators provide flexibility to adjust based on enemy movements, making the team resilient against pushes.",
+      "strengths": [
+        "High synergy between aggressive and support players, allowing for coordinated attacks.",
+        "Strong clutch potential with consistent performance in high-pressure rounds."
+      ],
+      "weaknesses": [
+        "Relies heavily on the Duelist for early kills; if neutralized, team may struggle with initial engagements.",
+        "Limited backup entry potential if the primary Duelist is countered."
+      ]
+    }
+  }
+  
