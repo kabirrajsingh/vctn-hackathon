@@ -40,7 +40,7 @@ export default function AssistantMessage({ data, onPlayerClick }) {
 
   return (
     <div className="mt-4 space-y-8">
-      {data && data.response} 
+      {data && data.reponse} 
       <h2 className="text-2xl font-bold text-white mb-6">
         Team Composition for <span className="text-red-500">{data?.team_name}</span>
       </h2>
