@@ -24,8 +24,7 @@ const agentImages = {
   "KAY/O": "https://pbs.twimg.com/media/F5bubyxbYAA8BjJ.jpg:large",
   "Yoru": "https://i.pinimg.com/originals/75/b0/2e/75b02e629877f4e6720a8d2a0429ab38.png",
   "Harbor": "https://img.redbull.com/images/c_crop,x_336,y_0,h_570,w_428/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2023/1/24/ngljfqaupmiywuqas5tl/harbor-valorant"
-}
-
+};
 
 // Set a maximum number of performance stats to display
 const MAX_STATS_DISPLAY = 8;
@@ -42,15 +41,15 @@ export default function AssistantMessage({ data, onPlayerClick }) {
   return (
     <div className="mt-4 space-y-8">
       <h2 className="text-2xl font-bold text-white mb-6">
-        Team Composition for <span className="text-red-500">{data.team_name}</span>
+        Team Composition for <span className="text-red-500">{data?.team_name}</span>
       </h2>
 
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
         <h4 className="font-bold text-white text-lg">High-Level Reason:</h4>
-        <p className="text-sm text-gray-400 mt-1">{data.high_level_reason}</p>
+        <p className="text-sm text-gray-400 mt-1">{data?.high_level_reason}</p>
       </div>
 
-      {data.team_composition.map((player, index) => (
+      {data?.team_composition?.map((player, index) => (
         <div
           key={index}
           className={`mb-6 p-6 bg-gray-900 text-white rounded-lg shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl cursor-pointer ${
@@ -100,23 +99,26 @@ export default function AssistantMessage({ data, onPlayerClick }) {
             </tbody>
           </table>
 
-          {/* Role-Wise Importance Reasoning Section */}
-          {data.role_wise_importance_reasoning[player.role] && (
+          {data?.role_wise_importance_reasoning?.[player.role] && (
             <div className="mt-4">
-              <h4 className="font-bold text-white">Role Importance for {player.role}:</h4>
-              <p className="text-sm text-gray-400 mt-1">
+              <h5 className="font-bold">Role-wise Importance Reasoning</h5>
+              <ReactMarkdown className="text-gray-300 mt-2">
                 {data.role_wise_importance_reasoning[player.role]}
-              </p>
+              </ReactMarkdown>
             </div>
           )}
-          <div className="bg-gray-800 p-4 rounded-lg mt-4">
-          <h3 className="text-xl font-semibold mb-2">Team Strategy</h3>
-          <ReactMarkdown className="prose prose-invert">
+        </div>
+      ))}
+
+      {/* Team Strategy Section */}
+      {data?.strategy_text && (
+        <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+          <h4 className="font-bold text-lg text-white">Team Strategy:</h4>
+          <ReactMarkdown className="text-gray-300 mt-2">
             {data.strategy_text}
           </ReactMarkdown>
         </div>
-        </div>
-      ))}
+      )}
     </div>
   );
 }
