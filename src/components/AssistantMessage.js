@@ -1,10 +1,31 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { Line } from 'react-chartjs-2';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
 
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 // Assuming you have a mapping of agent names to icon URLs
 const agentImages = {
   "Omen": "https://img.redbull.com/images/c_crop,x_991,y_0,h_2160,w_1620/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2021/2/16/bm7cdtb6xdhcibbweehq/valorant-omen",
   "Cypher": "https://images3.alphacoders.com/127/1274317.jpg",
+  "Raze":"https://www.exitlag.com/blog/wp-content/uploads/2024/09/raze-valorant-agent-guide.webp",
   "Viper": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/45c03199893217.5efdc2ce756a0.jpg",
   "Chamber": "https://img.redbull.com/images/c_fill,g_auto,w_450,h_600/q_auto:low,f_auto/redbullcom/2022/6/23/amyfccnxh273aiuokpjy/chamber-valorant",
   "Neon": "https://img.redbull.com/images/c_crop,x_264,y_0,h_546,w_409/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2022/10/31/yy1oarooqat7lunsjw5r/valorant-neon",
@@ -31,25 +52,52 @@ const MAX_STATS_DISPLAY = 8;
 
 export default function AssistantMessage({ data, onPlayerClick }) {
   const [selectedPlayer, setSelectedPlayer] = useState(null);
-  console.log(data);
 
   const handlePlayerClick = (player) => {
     setSelectedPlayer(player.player_name);
     onPlayerClick(player);
   };
 
+  const renderScoreGraph = (scores) => {
+    return (
+      <div className="w-full h-10 flex items-center space-x-1">
+        {scores.map((score, index) => (
+          <div
+            key={index}
+            style={{
+              height: `${score * 10}%`,
+              width: '20%',
+            }}
+            className="bg-blue-500 rounded"
+          ></div>
+        ))}
+      </div>
+    );
+  };
+
   return (
     <div className="mt-4 space-y-8">
-      {data && data.reponse} 
+      {data && data.reponse}
+      
       <h2 className="text-2xl font-bold text-white mb-6">
         Team Composition for <span className="text-red-500">{data?.team_name}</span>
       </h2>
 
+      {/* High-Level Reason */}
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
         <h4 className="font-bold text-white text-lg">High-Level Reason:</h4>
         <p className="text-sm text-gray-400 mt-1">{data?.high_level_reason}</p>
       </div>
 
+      {/* IGL Player Details */}
+      <div className="bg-gray-900 p-6 rounded-lg shadow-lg text-white">
+        <h4 className="font-bold text-lg">In-Game Leader (IGL):</h4>
+        <p className="text-sm text-gray-300 mt-1">Name: {data?.igl_player_name}</p>
+        <p className="text-sm text-gray-300">Player ID: {data?.igl_player_id}</p>
+        <p className="text-sm text-gray-300">Score: {data?.igl_player_score}</p>
+      </div>
+
+      {/* Team Composition */}
       {data?.team_composition?.map((player, index) => (
         <div
           key={index}
@@ -60,7 +108,7 @@ export default function AssistantMessage({ data, onPlayerClick }) {
         >
           <div className="flex items-center">
             <img 
-              src={agentImages[player.top_agent] || 'https://dotesports.com/wp-content/uploads/2024/07/valorant-agent-full-list.jpg'}
+              src={agentImages[player?.top_agent] || "https://dotesports.com/wp-content/uploads/2024/07/valorant-agent-full-list.jpg"}
               alt={player.player_name}
               className="w-16 h-16 rounded-full mr-4 border border-gray-700"
             />
@@ -79,43 +127,40 @@ export default function AssistantMessage({ data, onPlayerClick }) {
             </div>
           </div>
 
-          {/* Performance Stats Table for Each Player */}
+          {/* Performance Stats Table */}
           <h4 className="font-bold text-white mt-4">Performance Stats</h4>
           <table className="min-w-full border border-gray-600 mt-2 rounded-lg overflow-hidden">
             <thead>
               <tr className="bg-gray-700 text-gray-300">
-                {Object.keys(player.performance_stats).slice(0, MAX_STATS_DISPLAY).map((statKey) => (
+                {Object.keys(player.performance_stats).map((statKey) => (
                   <th key={statKey} className="border-b border-gray-600 p-2">{statKey}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
               <tr className="text-center">
-                {Object.values(player.performance_stats).slice(0, MAX_STATS_DISPLAY).map((statValue, statIndex) => (
-                  <td key={statIndex} className="p-2 bg-gray-800 border-b border-gray-600">
-                    {typeof statValue === 'number' ? statValue.toFixed(2) : statValue}
-                  </td>
+                {Object.values(player.performance_stats).map((statValue, i) => (
+                  <td key={i} className="border-b border-gray-600 p-2">{statValue}</td>
                 ))}
               </tr>
             </tbody>
           </table>
 
-          {data?.role_wise_importance_reasoning?.[player.role] && (
+          {/* Small Graph for Player Score */}
+          {player.player_score.length >= 3 && (
             <div className="mt-4">
-              <h5 className="font-bold">Role-wise Importance Reasoning</h5>
-              <ReactMarkdown className="text-gray-300 mt-2">
-                {data.role_wise_importance_reasoning[player.role]}
-              </ReactMarkdown>
+              <h4 className="font-bold text-white">Player Score Graph</h4>
+              {renderScoreGraph(player.player_score)}
             </div>
           )}
         </div>
       ))}
 
-      {/* Team Strategy Section */}
+      {/* Strategy Text Section */}
       {data?.strategy_text && (
-        <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
-          <h4 className="font-bold text-lg text-white">Team Strategy:</h4>
-          <ReactMarkdown className="text-gray-300 mt-2">
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-white mt-6 space-y-4">
+          <h3 className="text-2xl font-bold">Team Composition Analysis</h3>
+          <ReactMarkdown className="text-sm text-gray-300">
             {data.strategy_text}
           </ReactMarkdown>
         </div>

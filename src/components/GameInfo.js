@@ -5,6 +5,8 @@ import { usePlayer } from '../contexts/PlayerContext';
 const agentImages = {
   "Omen": "https://img.redbull.com/images/c_crop,x_991,y_0,h_2160,w_1620/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2021/2/16/bm7cdtb6xdhcibbweehq/valorant-omen",
   "Cypher": "https://images3.alphacoders.com/127/1274317.jpg",
+
+  "Raze":"https://www.exitlag.com/blog/wp-content/uploads/2024/09/raze-valorant-agent-guide.webp",
   "Viper": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/45c03199893217.5efdc2ce756a0.jpg",
   "Chamber": "https://img.redbull.com/images/c_fill,g_auto,w_450,h_600/q_auto:low,f_auto/redbullcom/2022/6/23/amyfccnxh273aiuokpjy/chamber-valorant",
   "Neon": "https://img.redbull.com/images/c_crop,x_264,y_0,h_546,w_409/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2022/10/31/yy1oarooqat7lunsjw5r/valorant-neon",
@@ -39,11 +41,11 @@ export default function GameInfo() {
       {selectedPlayer ? (
         <>
           <div className="flex items-center mb-6">
-            <img
+            {/* <img
               src={selectedPlayer.player_photo_url}
               alt={selectedPlayer.player_name}
               className="w-16 h-16 rounded-full border-2 border-white mr-4"
-            />
+            /> */}
             <div>
               <h2 className="text-3xl font-extrabold text-white">{selectedPlayer.player_name}</h2>
               <p className="text-sm text-gray-400">{selectedPlayer.role} - {selectedPlayer.top_agent}</p>
